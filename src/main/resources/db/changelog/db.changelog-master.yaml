@@ -1,0 +1,50 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2025-10-20_0038_create-table
+      author: system
+      changes:
+        - sqlFile:
+            path: db/changelog/master-sql/mysql.2025-10-20_0038_create-table.sql
+            relativeToChangelogFile: false
+  - changeSet:
+      id: 2025-10-20_0038_insert-data
+      author: system
+      changes:
+        - sqlFile:
+            path: db/changelog/master-sql/mysql.2025-10-20_0038_insert-data.sql
+            relativeToChangelogFile: false
+  - changeSet:
+      id: 2025-10-20_0118_create-table
+      author: system
+      changes:
+        - sqlFile:
+            path: db/changelog/master-sql/mysql.2025-10-20_0118_create-table.sql
+            relativeToChangelogFile: false
+  - changeSet:
+      id: 2025-10-20_0126_create-table
+      author: system
+      changes:
+        - sqlFile:
+            path: db/changelog/master-sql/mysql.2025-10-20_0126_create-table.sql
+            relativeToChangelogFile: false
+  - changeSet:
+      id: 2025-11-23_0000_create-table
+      author: system
+      changes:
+        - sqlFile:
+            path: db/changelog/master-sql/mysql.2025-11-23_0000_create-table.sql
+            relativeToChangelogFile: false
+  - changeSet:
+      id: 2025-11-23_0202_insert-data
+      author: system
+      changes:
+        - sqlFile:
+            path: db/changelog/master-sql/mysql.2025-11-23_0202_insert-data.sql
+            relativeToChangelogFile: false
+  - changeSet:
+      id: 2025-11-23_0354_alter-table
+      author: system
+      changes:
+        - sqlFile:
+            path: db/changelog/master-sql/mysql.2025-11-23_0354_alter-table.sql
+            relativeToChangelogFile: false
