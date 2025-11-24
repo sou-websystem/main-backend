@@ -26,6 +26,7 @@ dependencies {
 	implementation 'io.jsonwebtoken:jjwt-api:0.11.5'
 	implementation 'org.liquibase:liquibase-core'
     implementation 'org.mapstruct:mapstruct:1.6.3'
+    implementation 'com.mysql:mysql-connector-j:9.0.0'
  
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	runtimeOnly 'com.mysql:mysql-connector-j'
